@@ -199,26 +199,116 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ *                           ........    QUESTIONS   ..........  
  *
 -->
-<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
-  <!--..................... NOTES ......................-->
-          <aside class="note"><section>
-             ...
-          </section></aside>
-  <!--..................... SLIDE ......................-->
-  <section style="font-size:38px">
 
-    <header>railsgirls</header>
-        rg.<span class="mark_green">rubydevs</span>@gmail.com<br>
-        rg.<span class="mark_red">rubyroid</span>@gmail.com<br>
-        rg.<span class="mark_green">rubydubydoo</span>@gmail.com<br>
-        rg.<span class="mark_red">rubylnik</span>@gmail.com<br>
-        rg.<span class="mark_green">rubybot</span>@gmail.com<br>
-        rg.<span class="mark_red">happynewrails</span>@gmail.com<br>
-        rg.<span class="mark_green">rubyracers</span>@gmail.com<br>
-  </section>
+<div class="slide transparent image" data-backgroundid="bg-04">
+  <div data-build>
+    <section data-auto style="background:none;">
+
+
+
+    </section>
+  </div>
+</div>
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ *                           ........    QUESTIONS   ..........  
+ *
+-->
+
+<div class="slide transparent image" data-backgroundid="bg-05">
+  <div data-build>
+    <section data-auto style="background:none;">
+
+
+
+    </section>
+  </div>
+</div>
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ *                           ........    QUESTIONS   ..........  
+ *
+-->
+
+<div class="slide transparent image" data-backgroundid="bg-06">
+  <div data-build>
+    <section data-auto style="background:none;">
+
+
+
+    </section>
+  </div>
+</div>
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ *                           ........    QUESTIONS   ..........  
+ *
+-->
+
+<div class="slide transparent image" data-backgroundid="bg-07">
+  <div data-build>
+    <section data-auto style="background:none;">
+
+
+
+    </section>
+  </div>
+</div>
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ *                           ........    QUESTIONS   ..........  
+ *
+-->
+
+<div class="slide transparent image" data-backgroundid="bg-08">
+  <div data-build>
+    <section data-auto style="background:none;">
+
+
+
+    </section>
+  </div>
+</div>
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ *                           ........    QUESTIONS   ..........  
+ *
+-->
+
+<div class="slide transparent image" data-backgroundid="bg-09">
+  <div data-build>
+    <section data-auto style="background:none;">
+
+
+
+    </section>
+  </div>
 </div>
 
 
@@ -299,7 +389,7 @@ git add .
 </pre>
 
 <pre style="font-size:36px" >
-git commit –m "first commit"
+git commit -m "first commit"
 </pre>
 
   </section>
@@ -401,20 +491,117 @@ heroku create rails-girls-rocks
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+             ...
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <header> Deploying #2 </header>
+  <section  >
+<br>
+
+
+push the code
+<pre style="font-size:30px" >
+git push heroku master
+</pre>
+
+migrate database
+<pre style="font-size:30px" >
+heroku run rake db:migrate
+</pre>
+
+run the app
+<pre style="font-size:30px" >
+heroku open
+</pre>
+
+http://rails-girls-rocks.herokuapp.com
+  </section>
+</div>
+
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+             ...
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <header> Re-Deploy  </header>
+  <section style="">
+<br>
+
+<!-- - - - - - - - - - - - code - - - - - - - - - - - - -->
+
+
+
+<pre style="font-size:36px" >
+git add .
+</pre>
+
+<pre style="font-size:36px" >
+git commit -m "some comment"
+</pre>
+
+
+<pre style="font-size:36px" >
+git push heroku master
+</pre>
+
+<br>
+<pre style="font-size:30px" >
+heroku run rake db:migrate
+</pre>
+
+  </section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
  *                           ........    QUESTIONS   ..........  
  *
 -->
 
 <div class="slide transparent image" data-backgroundid="bg-02">
   <div data-build>
-    <section data-auto style="background:none">
-    <span style="margin-left:130px">
-      <div class="topmic">
-        <h1 style="margin-left:230px;margin-top:200px;font-size:85px;font-family:'UglyQua';text-shadow: #111 2px 4px; color:orange">QUESTIONS ?</h1>
-      </div>
-    </span>
+    <section data-auto style="background:none;font-size:34px;text-shadow: #111 2px 4px; color:yellow;margin-left:200px">
 
-    <a style="position:absolute; bottom:-230px; right:-250px;text-shadow: black 1px 2px 2px; font-size:60px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:yellow" href="http://dont-fear-internet.pp.ua" target="_blank"><h1 style="margin-left:0px;margin-top:-60px;">Dont-Fear-Internet.pp.ua
+    <h1 style="color:orange;margin:10px;margin-top:-50px;">railsgirls</h1>
+        <h1 style="font-family:'UglyQua';margin:10px">rg.<span class="mark_green" style="font-family:'Permanent Marker'">rubydevs</span>@gmail.com</h1>
+        <h1 style="font-family:'UglyQua';margin:10px">rg.<span class="mark_red" style="font-family:'Permanent Marker'">rubyroid</span>@gmail.com</h1>
+        <h1 style="font-family:'UglyQua';margin:10px">rg.<span class="mark_green" style="font-family:'Permanent Marker'">rubydubydoo</span>@gmail.com</h1>
+        <h1 style="font-family:'UglyQua';margin:10px">rg.<span class="mark_red" style="font-family:'Permanent Marker'">rubylnik</span>@gmail.com</h1>
+        <h1 style="font-family:'UglyQua';margin:10px">rg.<span class="mark_green" style="font-family:'Permanent Marker'">rubybot</span>@gmail.com</h1>
+        <h1 style="font-family:'UglyQua';margin:10px">rg.<span class="mark_red" style="font-family:'Permanent Marker'">happynewrails</span>@gmail.com</h1>
+        <h1 style="font-family:'UglyQua';margin:10px">rg.<span class="mark_green" style="font-family:'Permanent Marker'">rubyracers</span>@gmail.com</h1>
+<br><br>
+    <a style="margin-left:-150px;text-shadow: black 1px 2px 2px; font-size:62px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:yellow" href="http://heroku-railsgirls-kiev.herokuapp.com" target="_blank"><h1 style="margin-left:0px;margin-top:-60px;">heroku-railsgirls-kiev.herokuapp.com
         </a>
 
 
