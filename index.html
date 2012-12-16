@@ -197,123 +197,6 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
 
 
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- *                           ........    QUESTIONS   ..........  
- *
--->
-
-<div class="slide transparent image" data-backgroundid="bg-04">
-  <div data-build>
-    <section data-auto style="background:none;">
-
-
-
-    </section>
-  </div>
-</div>
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- *                           ........    QUESTIONS   ..........  
- *
--->
-
-<div class="slide transparent image" data-backgroundid="bg-05">
-  <div data-build>
-    <section data-auto style="background:none;">
-
-
-
-    </section>
-  </div>
-</div>
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- *                           ........    QUESTIONS   ..........  
- *
--->
-
-<div class="slide transparent image" data-backgroundid="bg-06">
-  <div data-build>
-    <section data-auto style="background:none;">
-
-
-
-    </section>
-  </div>
-</div>
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- *                           ........    QUESTIONS   ..........  
- *
--->
-
-<div class="slide transparent image" data-backgroundid="bg-07">
-  <div data-build>
-    <section data-auto style="background:none;">
-
-
-
-    </section>
-  </div>
-</div>
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- *                           ........    QUESTIONS   ..........  
- *
--->
-
-<div class="slide transparent image" data-backgroundid="bg-08">
-  <div data-build>
-    <section data-auto style="background:none;">
-
-
-
-    </section>
-  </div>
-</div>
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- *                           ........    QUESTIONS   ..........  
- *
--->
-
-<div class="slide transparent image" data-backgroundid="bg-09">
-  <div data-build>
-    <section data-auto style="background:none;">
-
-
-
-    </section>
-  </div>
-</div>
-
-
-
-
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
@@ -455,7 +338,7 @@ config.assets.initialize_on_precompile = false
           </section></aside>
   <!--..................... SLIDE ......................-->
   <header> Deploying #1 </header>
-  <section  >
+  <section   style="font-size:38px">
 <br>
 login
 
@@ -468,14 +351,16 @@ heroku login
 add ssh-key
 
 <pre style="font-size:30px" >
+# for windows
 heroku keys:add c:\sites\.ssh\id_rsa.pub
-            #or
+# for mac and linux
 heroku keys:add ~/.ssh/id_rsa.pub
 </pre>
 
 create new app
 <pre style="font-size:30px" >
 heroku create rails-girls-rocks
+              # &uarr; must be unique
 </pre>
 
 
