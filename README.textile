@@ -1,6 +1,9 @@
-h1. Don't Fear The Internet
+h1. RailsGirls: Deploy to Internet
 
-Slides for RailsGirls event http://railsgirls.com/dnipropetrovsk.html
+Presentation about Heroku for RailsGirls Kiev event
 
 
-http://dont-fear-internet.pp.ua
+Slides for RailsGirls event http://railsgirls.com/kiev
+
+
+http://heroku-railsgirls-kiev.herokuapp.com
